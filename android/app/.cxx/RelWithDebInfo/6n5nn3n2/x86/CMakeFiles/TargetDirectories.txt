@@ -1,0 +1,2 @@
+D:/gutendex/android/app/.cxx/RelWithDebInfo/6n5nn3n2/x86/CMakeFiles/edit_cache.dir
+D:/gutendex/android/app/.cxx/RelWithDebInfo/6n5nn3n2/x86/CMakeFiles/rebuild_cache.dir

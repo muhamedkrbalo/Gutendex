@@ -1,0 +1,2 @@
+D:/gutendex/android/app/.cxx/Debug/5w1j4q6q/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/gutendex/android/app/.cxx/Debug/5w1j4q6q/armeabi-v7a/CMakeFiles/rebuild_cache.dir
