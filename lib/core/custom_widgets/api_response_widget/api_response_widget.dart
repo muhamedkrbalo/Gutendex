@@ -58,8 +58,7 @@ class ApiResponseWidget extends StatelessWidget {
                 const Icon(Icons.wifi_off, size: 20),
                 const SizedBox(width: 8),
                 Flexible(
-                    child:
-                        Text(AppLocaleKey.pleaseCheckInternetAndRefresh.tr())),
+                    child: Text(AppLocaleKey.pleaseCheckInternetAndRefresh)),
               ],
             ),
           ),

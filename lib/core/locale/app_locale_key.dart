@@ -4,5 +4,5 @@ class AppLocaleKey {
   static const String seeLess = 'seeLess';
   static const String seeMore = 'seeMore';
   static const String pleaseCheckInternetAndRefresh =
-      'pleaseCheckInternetAndRefresh';
+      'Please check your internet connection and refresh the page';
 }
