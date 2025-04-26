@@ -24,21 +24,37 @@ Dependency injection.
 🛠️ Packages Used
 
 Package	Description
+
 cached_network_image	Loads and caches network images efficiently.
+
 dartz	Provides functional programming features like Either, useful for clean error handling.
+
 dio	A powerful HTTP client for API communication.
+
 easy_localization	Enables multi-language support in the app.
+
 equatable	Helps with object comparison, especially in BLoC states.
+
 flutter_bloc	State management using Cubit.
+
 flutter_screenutil	Makes the UI responsive on different screen sizes.
+
 flutter_svg	Renders SVG images in Flutter.
+
 get_it	A simple dependency injection tool.
+
 hive	Lightweight and fast local database for offline caching.
+
 hive_flutter	Integrates Hive with Flutter more easily.
+
 internet_connection_checker_plus	Checks internet connectivity status.
+
 pretty_dio_logger	Logs HTTP requests/responses for debugging.
+
 shimmer_animation	Adds shimmer loading effects while data is loading.
 
 🌐 Supported Languages
+
 🇺🇸 English
+
 🇪🇬 Arabic
