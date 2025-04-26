@@ -2,6 +2,7 @@
 A simple Flutter application that displays a list of books, supports search functionality, offline caching, multiple languages, and multiple themes (light & dark).
 
 ✨ Features
+
 Book List Screen to display books.
 
 Search functionality with debouncing to efficiently filter books while reducing unnecessary API calls.
