@@ -4,20 +4,21 @@ final sl = GetIt.instance;
 Future<void> initDependencies() async {
   sl.registerLazySingleton<InternetConnection>(() => InternetConnection());
 
-  sl.registerFactory<AppInterceptors>(() => AppInterceptors());
-  sl.registerFactory<Dio>(() => Dio());
+  sl.registerLazySingleton<AppInterceptors>(() => AppInterceptors());
+  sl.registerLazySingleton<Dio>(() => Dio());
   sl.registerFactory<ApiConsumer>(() => DioConsumer(client: sl()));
 
   //! home
-  sl.registerFactory<HomeRemoteDataSource>(
+  sl.registerLazySingleton<HomeRemoteDataSource>(
       () => HomeRemoteDataSourceImpl(sl()));
 
-  sl.registerFactory<LocalDataSource>(
+  sl.registerLazySingleton<LocalDataSource>(
       () => LocalDataSourceImpl(Hive.box(Constants.booksBox)));
-  sl.registerFactory<HomeRepository>(() => HomeRepositoryImpl(sl(), sl()));
+  sl.registerLazySingleton<HomeRepository>(
+      () => HomeRepositoryImpl(sl(), sl()));
 
   //! useCase
-  sl.registerFactory<BooksUseCase>(() => BooksUseCase(sl()));
+  sl.registerLazySingleton<BooksUseCase>(() => BooksUseCase(sl()));
 
   sl.registerFactory<HomeCubit>(() => HomeCubit(sl()));
 }

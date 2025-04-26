@@ -1,4 +1,3 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:gutendex/core/custom_widgets/offline_widget/offline_widget.dart';
 import 'package:gutendex/core/enum/cubit_state/cubit_state.dart';
@@ -53,15 +52,16 @@ class ApiResponseWidget extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(8),
             color: Colors.orange[100],
-            child: Row(
+            child: const Row(
               children: [
-                const Icon(Icons.wifi_off, size: 20),
-                const SizedBox(width: 8),
+                Icon(Icons.wifi_off, size: 20),
+                SizedBox(width: 8),
                 Flexible(
                     child: Text(AppLocaleKey.pleaseCheckInternetAndRefresh)),
               ],
             ),
           ),
+        const SizedBox(height: 8),
         Expanded(
           child: _buildContent(context),
         ),
